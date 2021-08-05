@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header-container {
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    font-size: 1em;
+    height: 50px;
+    margin: 2em;
+    margin-bottom: 0;
+    padding: .5em;
+}
+
+.user-data, .country-data {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.users, .countries {
+    padding: .5em;
+    margin: 1em;
+    border: 1px solid black;
+}
